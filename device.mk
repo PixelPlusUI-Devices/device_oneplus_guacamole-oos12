@@ -37,6 +37,10 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget \
     OPlusExtrasResTarget
 
+# RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
+    
 # Shipping API
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
